@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "office2s",
+  "info": {
+    "name": "office2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "idNumber": {
+      "type": "integer"
+    }
+  }
+}

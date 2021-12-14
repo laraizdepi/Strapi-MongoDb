@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-2-s",
+      "handler": "office2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-2-s/count",
+      "handler": "office2.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-2-s/:id",
+      "handler": "office2.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-2-s",
+      "handler": "office2.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-2-s/:id",
+      "handler": "office2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-2-s/:id",
+      "handler": "office2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offices",
+  "info": {
+    "name": "office",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "idNumber": {
+      "type": "integer"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "opendate": {
+      "type": "date"
+    }
+  }
+}
